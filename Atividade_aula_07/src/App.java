@@ -1,3 +1,5 @@
+import enumerators.StatesEnum;
+
 public class App {
     public static void main(String[] args) throws Exception {
         Person pessoa1 = new Person("Asaph", "Souza", "15454545478", "Solteiro", "12345123", 'm', 26);
@@ -23,6 +25,7 @@ class Person{
      * Representa a idade da pessoa em anos
      */
     private int age;
+    private StatesEnum
     
     @Override
     public String toString() {
